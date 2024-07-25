@@ -1,7 +1,19 @@
-public class ForL{
-public static void main(String[]args){
-// prepare an object for ArrayList
-  // Load String instead of Integers 
-  // Iterate them using for each loop
-}
+import java.util.ArrayList;
+
+public class ForL {
+    public static void main(String[] args) {
+      
+        ArrayList<String> aL = new ArrayList<>();
+
+       
+        aL.add("JEEP");
+        aL.add("BMW");
+        aL.add("VELFIRE");
+        
+
+       
+        for (String medhas : aL) {
+            System.out.println(medhas);
+        }
+    }
 }

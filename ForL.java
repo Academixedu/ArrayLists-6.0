@@ -1,7 +1,13 @@
-public class ForL{
-public static void main(String[]args){
-// prepare an object for ArrayList
-  // Load String instead of Integers 
-  // Iterate them using for each loop
-}
+import java.util.ArrayList;
+
+public class ForL {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+        list.add("Apple");
+        list.add("Banana");
+        list.add("Cherry");
+        for (String fruit : list) {
+            System.out.println(fruit);
+        }
+    }
 }

@@ -6,7 +6,7 @@ public static void main(String[]args){
 // Create an Object for ArrayList
   // Load person class Objects in it
   // Iterate it by using List Iterator
-  // Print the values by using while Loop
+  // print the values by using while Loop
 
     ArrayList<person> myList = new ArrayList<person>();
     person p1 = new person("John", 25, 'A', 25000, 5000);
@@ -19,7 +19,10 @@ public static void main(String[]args){
     Iterator<person> it = myList.iterator();
     while(it.hasNext()){
         person p = it.next();
-        System.out.println(p.name + " " + p.age + " " + p.grade + " " + p.salary + " " + p.bonus);
+        System.out.println(p.getName() + " " + p.getAge() + " " + p.getAge() + " " + p.getSalary() + " " + p.getBonus());
     }
+
+
+
 }
 }
